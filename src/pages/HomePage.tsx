@@ -1,6 +1,7 @@
 import CardNav from "../components/navigation/CardNav";
 import InteractiveHero from "../components/sections/InteractiveHero";
 import LargeChatBubble from "../components/chat/LargeChatBubble";
+import WhatIDo from "../components/sections/WhatIDo";
 import Footer from "../components/layout/Footer";
 
 const cardNavItems = [
@@ -89,6 +90,9 @@ export default function HomePage() {
 
       {/* Large Chat Bubble */}
       <LargeChatBubble />
+
+      {/* What I Do Section */}
+      <WhatIDo />
 
       {/* Footer */}
       <Footer />

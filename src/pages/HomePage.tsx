@@ -2,6 +2,7 @@ import CardNav from "../components/navigation/CardNav";
 import InteractiveHero from "../components/sections/InteractiveHero";
 import LargeChatBubble from "../components/chat/LargeChatBubble";
 import WhatIDo from "../components/sections/WhatIDo";
+import MyProjects from "../components/sections/MyProjectsNew";
 import Footer from "../components/layout/Footer";
 
 const cardNavItems = [
@@ -93,6 +94,9 @@ export default function HomePage() {
 
       {/* What I Do Section */}
       <WhatIDo />
+
+      {/* My Projects Section */}
+      <MyProjects />
 
       {/* Footer */}
       <Footer />
